@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "start /b deploy.bat"
+    "deploy": "npm run build && start /b deploy.bat"
   },
   "dependencies": {
     "vuepress": "^1.9.7",
